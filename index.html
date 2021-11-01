@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>01.11.2021</title>
+	<link rel="stylesheet" href="CSS/style.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+	<section>
+		<div class="toggle-btn">
+			<i class="fas fa-adjust"></i>
+		</div>
+		<div class="container">
+			<div class="content">
+<div class="content-image">
+	<img scr="IMG\flat-lay-vacation-composition-with-copy-space.jpg": alt="summer">
+</div>
+<div class="contect-text">
+<h1 class="title">The Vocation</h1>
+<h2 class="subtitle">BOOK YOUR HOLIDAY</h2>
+<p class="paragraph">
+	Holiday houses, holiday house in Latvia
+</p>
+<p class="paragraph">
+	Incredibly Low Prices - Holiday Latvia
+</p>
+<a href="#" clsas="cta">LEARN MORE &rarr;</a>
+</div>
+			</div>
+		</div>
+	</section>
+	<script>
+		<link rel="stylesheet" href="JS\app.js" />
+Letbody	= document.body;
+LettoggleBtn = document.querySelector('.toggle-btn');
+LetcurrentTheme = localStorage.getItem('currentTheme');
+
+toggleBtn.addEventListener('click', function() {
+body.classList.toggle('dark-theme')
+
+if(body.classList.contains('dark-theme'))
+localStorage.setItem('currentTheme' , 'themeActive');
+
+})
+	</script>
+</body>
+</html>
